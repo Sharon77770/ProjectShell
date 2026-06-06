@@ -1,0 +1,4 @@
+[workspace]
+members = ["projectshell"]
+default-members = ["projectshell"]
+resolver = "2"

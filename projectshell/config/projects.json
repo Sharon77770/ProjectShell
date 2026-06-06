@@ -1,0 +1,100 @@
+{
+  "selected_project_id": "project-trendscope",
+  "language": "korean",
+  "projects": [
+    {
+      "id": "project-projectshell",
+      "name": "ProjectShell",
+      "description": "Native Rust launcher for restoring this development workspace.",
+      "workspace_path": "",
+      "apps": [
+        {
+          "id": "app-projectshell-vscode",
+          "name": "VSCode",
+          "executable_path": "code",
+          "args": ".",
+          "process_name": "code"
+        },
+        {
+          "id": "app-projectshell-terminal",
+          "name": "test",
+          "executable_path": "wt.exe",
+          "args": "",
+          "process_name": "wt.exe"
+        },
+        {
+          "id": "app-projectshell-figma",
+          "name": "Figma",
+          "executable_path": "",
+          "args": "",
+          "process_name": ""
+        },
+        {
+          "id": "app-projectshell-github-desktop",
+          "name": "GitHub Desktop",
+          "executable_path": "GitHubDesktop.exe",
+          "args": "",
+          "process_name": "githubdesktop.exe"
+        }
+      ]
+    },
+    {
+      "id": "project-jarvis",
+      "name": "Jarvis",
+      "description": "Automation and assistant project environment.",
+      "workspace_path": "",
+      "apps": [
+        {
+          "id": "app-jarvis-vscode",
+          "name": "VSCode",
+          "executable_path": "code",
+          "args": ".",
+          "process_name": "code"
+        },
+        {
+          "id": "app-jarvis-docker",
+          "name": "Docker Desktop",
+          "executable_path": "C:\\Program Files\\Docker\\Docker\\Docker Desktop.exe",
+          "args": "",
+          "process_name": "docker desktop.exe"
+        },
+        {
+          "id": "app-jarvis-docs",
+          "name": "Chrome Docs",
+          "executable_path": "chrome.exe",
+          "args": "https://docs.docker.com/",
+          "process_name": "chrome.exe"
+        }
+      ]
+    },
+    {
+      "id": "project-trendscope",
+      "name": "TrendScope",
+      "description": "Data and browser preview workspace.",
+      "workspace_path": "",
+      "apps": [
+        {
+          "id": "app-trendscope-idea",
+          "name": "IntelliJ IDEA",
+          "executable_path": "idea64.exe",
+          "args": "",
+          "process_name": "idea64.exe"
+        },
+        {
+          "id": "app-trendscope-mysql",
+          "name": "MySQL Workbench",
+          "executable_path": "C:\\Program Files\\MySQL\\MySQL Workbench 8.0\\MySQLWorkbench.exe",
+          "args": "",
+          "process_name": "mysqlworkbench.exe"
+        },
+        {
+          "id": "app-trendscope-browser",
+          "name": "Browser Preview",
+          "executable_path": "chrome.exe",
+          "args": "http://localhost:3000",
+          "process_name": "chrome.exe"
+        }
+      ]
+    }
+  ]
+}
